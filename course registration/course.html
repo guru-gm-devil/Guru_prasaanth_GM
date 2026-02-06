@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Registration</title>
+  </head>
+
+  <body>
+    <h1 align="center">Course Registration Form</h1>
+
+    <form action="Success.html" method="post">
+      <label>Student Name</label>
+      <input type="text" name="name" required /><br /><br />
+
+      <label>Student ID</label>
+      <input type="text" name="studentid" required /><br /><br />
+
+      <label>Email</label>
+      <input type="email" name="email" required /><br /><br />
+
+      <label>Phone Number</label>
+      <input type="tel" name="phone" required /><br /><br />
+
+      <label>Gender</label>
+      <input type="radio" name="gender" value="Male" />Male
+      <input type="radio" name="gender" value="Female" />Female
+      <input type="radio" name="gender" value="Other" />Other
+      <br /><br />
+
+      <label>Course</label>
+      <select name="course">
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>JavaScript</option>
+        <option>Python</option>
+        <option>Java</option>
+      </select>
+      <br /><br />
+
+      <label>Skills</label>
+      <input type="checkbox" value="HTML" />HTML
+      <input type="checkbox" value="CSS" />CSS
+      <input type="checkbox" value="JS" />JS
+      <br /><br />
+
+      <label>Password</label>
+      <input type="password" name="password" required /><br /><br />
+
+      <input type="submit" value="Register" />
+      <input type="reset" value="Reset" />
+    </form>
+
+    <p>
+      Already registered? <a href="Login.html">Login here</a>
+    </p>
+  </body>
+</html>
